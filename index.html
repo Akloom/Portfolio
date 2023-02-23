@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="website icon" type="svg" href="">
+  <link rel="website icon" type="svg" href="./assets/img/icons/logo-icon.svg">
   <title>Akloom Portfolio</title>
 </head>
+
 <body>
-  
+
   <div class="wrapper">
-    
+    <header class="header">
+      <div class="header-content container">
+        <img src="./assets/img/icons/logo-icon.svg" alt="">
+        <div class="hamburger-menu">
+          <span></span>
+        </div>
+        <div class="header-nav__collapse">
+          <div class="header-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contacts">Contacts</a>
+          </div>
+          <div class="header-language">
+            <button class="header-language__static">
+              <span>ENG</span>
+              <svg class="header-language__static-icon">
+                <use href="./assets/img/icons/svg-sprite.svg#arrow-down"></use>
+              </svg>
+            </button>
+            <div class="header-language__content">
+              <div class="header-language__content-choice">
+                <a href="#">ENG</a>
+                <a href="./index-ru.html">RUS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
   </div>
 
   <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
