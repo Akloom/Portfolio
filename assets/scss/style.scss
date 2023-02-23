@@ -15,6 +15,10 @@
   font-family: inherit;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .wrapper{
   font-family: "Montserrat", sans-serif;
 }
@@ -27,6 +31,7 @@
 @import './layout/header';
 @import './include/banner';
 @import './include/about';
+@import './include/faq';
 @import './include/skills';
 @import './include/project';
 @import './include/contacts';
