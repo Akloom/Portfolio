@@ -96,7 +96,7 @@
               &::before {
                 position: absolute;
                 content: '';
-                width: 68%;
+                width: 50%;
                 height: 36px;
                 left: -3px;
                 border-radius: 24px;
@@ -117,7 +117,7 @@
               &::before {
                 position: absolute;
                 content: '';
-                width: 48%;
+                width: 78%;
                 height: 36px;
                 left: -3px;
                 border-radius: 24px;
@@ -159,7 +159,7 @@
               &::before {
                 position: absolute;
                 content: '';
-                width: 58%;
+                width: 70%;
                 height: 36px;
                 left: -3px;
                 border-radius: 24px;
@@ -258,7 +258,7 @@
 
     &-content {
       flex-direction: column;
-      
+
       &__card {
         span {
           font-size: 20px;
@@ -292,7 +292,7 @@
 
     &-content {
       gap: 40px;
-      
+
       &__card {
         gap: 30px;
 
@@ -328,7 +328,7 @@
 
     &-content {
       flex-direction: column;
-      
+
       &__card {
         gap: 20px;
 
